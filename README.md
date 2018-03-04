@@ -1,2 +1,1 @@
-# RichBe-landing
-RichBe Landing Page
+#richbe-landing-page
