@@ -340,7 +340,22 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 35px;
+}
+@media screen and (min-width: 1550px) and (max-width: 1780px) {
+    .reasons-content, .answers-content {
+        margin-top: 31px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .reasons-content, .answers-content {
+        margin-top: 24px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .reasons-content, .answers-content {
+        margin-top: 20px;
+    }
 }
 
 .reasons-list {
@@ -349,24 +364,19 @@ button {
     justify-content: center;
     align-items: center;
 }
-.reasons-list-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 6%;
-}
+
+
 .reasons-list-item-symbol {
     margin-right: 17px;
 }
 
-.reasons-list-item-text, .reasons-call-text {
-    font-family: Roboto-Regular;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: justify;
-    line-height: 125%;
-}
+/*.reasons-list-item-text, .reasons-call-text {*/
+    /*font-family: Roboto-Regular;*/
+    /*font-size: 24px;*/
+    /*font-weight: normal;*/
+    /*text-align: justify;*/
+    /*line-height: 125%;*/
+/*}*/
 
 .reasons-call-block {
     display: flex;
@@ -374,7 +384,23 @@ button {
     justify-content: center;
     align-items: center;
     color: rgb(39,118,239);
-    margin-top: 8%;
+    /*margin-top: 8%;*/
+    margin-top: 92px;
+}
+@media screen and (min-width: 1550px) and (max-width: 1780px) {
+    .reasons-call-block {
+        margin-top: 83px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .reasons-call-block {
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .reasons-call-block {
+        margin-top: 53px;
+    }
 }
 
 .bid {
@@ -383,8 +409,8 @@ button {
     justify-content: center;
     align-items: center;
     background: rgb(219,0,0);
-    padding: 2% 7%;
-    margin-top: 3%;
+    padding: 20px 72px;
+    margin-top: 35px;
 }
 
 .bid-text {
@@ -397,15 +423,27 @@ button {
     .bid-text{
         font-size: 19px;
     }
+    .bid {
+        padding: 17px 55px;
+        margin-top: 31px;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1549px) {
     .bid-text{
         font-size: 18px;
     }
+    .bid {
+        padding: 16px 50px;
+        margin-top: 24px;
+    }
 }
 @media screen and (max-width: 1199px) {
     .bid-text{
         font-size: 19px;
+    }
+    .bid {
+        padding: 16px 42px;
+        margin-top: 20px;
     }
 }
 
@@ -1569,7 +1607,23 @@ label.name:before {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
+    margin-top: 58px;
+}
+@media screen and (min-width: 1550px) and (max-width: 1780px) {
+    .reasons-list-item {
+        margin-top: 62px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .reasons-list-item {
+        margin-top: 49px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .reasons-list-item {
+        margin-top: 40px;
+    }
 }
 
 .reasons-list-item-text, .reasons-call-text {
