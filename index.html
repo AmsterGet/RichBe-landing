@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="css/reset.css" rel="stylesheet"/>
-    <link href="css/index.css" rel="stylesheet"/>
+    <link href="css/preview.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="wrapper">
@@ -59,6 +59,26 @@
             </div>
         </header>
 
+        <div class="popup_overlay" onClick="popup_out();"></div>
+        <div class="popup" id="request">
+            <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+            <div class="popup_h1">Оставьте заявку</div>
+            <div class="popup_h2">
+                Оставьте заявку, и наш специалист свяжется<br>
+                с вами в ближайшее время.
+            </div>
+            <form>
+                <label class="name required">
+                    <input type="text" name="name" placeholder="Ваше имя">
+                </label><br>
+                <label class="number required"><input type="text" name="phone" placeholder="Ваш телефон"></label><br>						<label class="email required">
+                <input type="text" name="email" placeholder="Ваш E-mail">
+            </label><br>
+                <div data-name="request" disabled="disabled" class="button noselect btn">Заказать</div>
+            </form>
+        </div>
+
+        <link href="css/index.css" rel="stylesheet"/>
         <main class="main">
 
             <section class="first-section">
@@ -689,25 +709,6 @@
                 </div>
             </div>
         </footer>
-    </div>
-
-    <div class="popup_overlay" onClick="popup_out();"></div>
-    <div class="popup" id="request">
-        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-        <div class="popup_h1">Оставьте заявку</div>
-        <div class="popup_h2">
-            Оставьте заявку, и наш специалист свяжется<br>
-            с вами в ближайшее время.
-        </div>
-        <form>
-            <label class="name required">
-                <input type="text" name="name" placeholder="Ваше имя">
-            </label><br>
-            <label class="number required"><input type="text" name="phone" placeholder="Ваш телефон"></label><br>						<label class="email required">
-            <input type="text" name="email" placeholder="Ваш E-mail">
-        </label><br>
-            <div data-name="request" disabled="disabled" class="button noselect btn">Заказать</div>
-        </form>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/index.js"></script>
